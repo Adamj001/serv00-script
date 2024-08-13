@@ -6,7 +6,7 @@ on:
     - cron: '0 18 * * *'  # 每1:00执行一次
   workflow_dispatch:
 
-jobs:run
+jobs:
   restore_and_notify:
     runs-on: ubuntu-latest
 
