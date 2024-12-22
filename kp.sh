@@ -5,8 +5,7 @@
 SCRIPT_PATH="/root/kp.sh"                    # 脚本路径
  # serv00或ct8服务器及端口配置。修改s0.serv00.com的服务区(默认s0)，使用argo临时域名时，仅填 账号:密码:UUID:tcp1端口:tcp2端口:udp端口 即可
 declare -A servers=(  # 账号:密码:UUID:tcp1端口:tcp2端口:udp端口:argo固定域名:Argo固定隧道密钥(json或token) 
-    ["s8.serv00.com"]='LZI01:k.qKZZRQZV6fecg:97b8bb4d-d27b-41d2-9844-18fe0a212dc1:18181:22041:37778:lzi.entech.us.kg:eyJhIjoiNDdmMGJlM2FiY2U0MTM5ZDRlZjAxMjg2OWJmOGVjN2MiLCJ0IjoiZGY1MGMxYjktNzdiZi00ZDJhLT
-hjN2YtMDE3ZjYyZjNmMGUyIiwicyI6IlpqSmxObVZtWWpNdFlUSXdZaTAwTVdJNExUZzNOakl0TkdWbU1UTXpabVF4TVRJeCJ9'
+    ["s8.serv00.com"]='LZI01::::::lzi.entech.us.kg:'
     # 添加更多服务器......
 )
 
