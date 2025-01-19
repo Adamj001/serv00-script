@@ -3,7 +3,7 @@ name: '恢复vless服务并发送Telegram消息'
 on:
   push:
   schedule:
-    - cron: '19 18 */2 * *'  # run every 2 days
+  #  - cron: '19 18 */2 * *'  # run every 2 days
   workflow_dispatch:
 
 jobs:
